@@ -1,7 +1,6 @@
 # Mi-emprendimiento-web-2020
 _**Prueba final CSS Avanzado**_
 
-![img](https://github.com/atomicblonde89/Mi-emprendimiento-web-2020/blob/main/assets/img/web-development.png)
 ![gif](https://github.com/atomicblonde89/Mi-emprendimiento-web-2020/blob/main/assets/img/gitAnimacion.gif)
 
 # **Mockups**
