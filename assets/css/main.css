@@ -337,6 +337,33 @@ template {
   display: none;
 }
 
+.button {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+}
+.button--big {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0.4rem 1.5rem;
+  margin: 0 10px;
+  color: #FFFFFF;
+  background-color: #060606;
+  height: 25px;
+  width: 98%;
+  padding: 2px;
+  margin: 0 auto;
+}
+.button--small {
+  padding: 4px 10px;
+  background-color: #FFAF6D;
+  text-decoration: none;
+  list-style: none;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
 .navbar {
   background-color: #000000;
   height: 60px;
@@ -414,7 +441,7 @@ template {
   padding: 0.1875rem;
 }
 .main .courses__article {
-  border: 0.0313rem dotted lightslategray;
+  border: 0.0313rem solid #060606;
   margin: 1.25rem 0.9375rem;
   padding: 0.3125rem;
 }
