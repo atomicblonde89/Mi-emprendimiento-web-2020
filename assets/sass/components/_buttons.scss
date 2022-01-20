@@ -21,6 +21,10 @@
         text-decoration: none;
         list-style: none;
         font-size: $x-small;
-        border-radius: 3px;
+        border-radius: 3px; 
+        
+    &:hover {
+        background-color: $white;
     }
+  }
 }

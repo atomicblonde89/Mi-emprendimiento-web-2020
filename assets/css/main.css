@@ -1,3 +1,19 @@
+@keyframes code {
+  0% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes wheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -363,6 +379,9 @@ template {
   font-size: 12px;
   border-radius: 3px;
 }
+.button--small:hover {
+  background-color: #FFFFFF;
+}
 
 .navbar {
   background-color: #000000;
@@ -400,6 +419,9 @@ template {
 .navbar__menu {
   font-size: 30px;
   color: #FFFFFF;
+}
+.navbar__menu:hover {
+  color: #FFAF6D;
 }
 
 @media (min-width: 514px) {
@@ -548,14 +570,14 @@ template {
   text-align: center;
 }
 .main .about-us__path1 {
-  animation-name: lineal;
+  animation-name: code;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 .main .about-us__path2 {
-  animation-name: rueda;
+  animation-name: wheel;
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -609,6 +631,9 @@ template {
   padding: 5px;
   border: none;
   margin: 0;
+}
+.footer__input:focus {
+  background-color: #FFAF6D;
 }
 .footer__copy {
   text-align: center;
