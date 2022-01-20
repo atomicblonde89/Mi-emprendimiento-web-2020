@@ -1,24 +1,23 @@
-@mixin respond-to ($break-point) {
-    @media (min-width: $break-point) {
-        @content
-    }
+@mixin respond-to($break-point) {
+  @media (min-width: $break-point) {
+    @content;
+  }
 }
 
-
 @keyframes code {
-    0% {
-        transform: translateX(150px);
-    }
-    100% {
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes wheel {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
