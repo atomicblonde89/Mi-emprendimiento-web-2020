@@ -1,0 +1,9 @@
+.header {
+    max-width: 100vh;
+    margin: 0 auto;
+    &__img {
+        & img {
+            width: 100%;
+        }
+    }
+}
